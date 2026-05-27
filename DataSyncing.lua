@@ -1,6 +1,3 @@
---// A little background on this script, whilst developing a game I was working on I found that the regular datasyncing scripts which roblox published on their creator docs was prone to constantly failing
---// So thus, I just made my own which worked a little bit better lol
-
 local DataStoreService = game:GetService("DataStoreService")
 local playerDataStore = DataStoreService:GetDataStore("myDataStore")
 
